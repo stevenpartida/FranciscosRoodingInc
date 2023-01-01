@@ -92,7 +92,7 @@ nav ul li a {
     text-transform: uppercase;
 }
 
-.overlay-text p {
+.overlay-p {
     font-size: 1.08em;
     margin: 20px 0;
     font-weight: 400;
@@ -100,7 +100,7 @@ nav ul li a {
 
 }
 
-.overlay-text a {
+.home-btn {
     display: inline-block;
     font-size: 1em;
     background: #fff;
@@ -113,8 +113,29 @@ nav ul li a {
     transition: 0.2s;
 }
 
-.overlay-text a:hover {
+.home-btn:hover {
     letter-spacing: 6px;
+}
+
+.home-licensed-insured {
+    font-size: 1em;
+    font-weight: 700px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.home-license-link {
+    font-size: 1em;
+    font-weight: 700px;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.home-license-link a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .overlay-social {
@@ -122,7 +143,7 @@ nav ul li a {
     display: flex;
     margin: 40px 0;
     list-style: none;
-    bottom: 80px;
+    bottom: 60px;
     color: #fff;
 }
 
@@ -267,6 +288,30 @@ form button:hover {
     padding: 20px;
     width: 70%;
 }
+
+.services-licensed-insured {
+    text-align: center;
+    font-size: 1.3em;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.services-license-link {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.05em;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.services-license-link a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
 article {
     margin: 25px auto;
 }
@@ -461,7 +506,7 @@ article h2 {
     }
 
     .overlay-social {
-        bottom: 40px;
+        bottom: 20px;
 
     }
 
